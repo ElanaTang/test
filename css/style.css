@@ -1,0 +1,20 @@
+/*以下為全域選取器*/
+body {color:gray}
+/*以下為標籤元素選取器*/
+ul {color:black}
+/*以下為class類別樣式選取器*/
+.text-maincolor {color:rgb(101, 135, 245);}
+.divborder {border:3px dashed dimgray;padding:10px 15px;margin:5px;}
+/*以下為id樣式選取器*/
+#specialcolor {color:brown}
+/*以下為後代選取器*/
+ul ol li {color:royalblue;}
+/*以下為子選取器*/
+.divtop>h1 {color:red}
+/*以下為複合元素選取器*/
+h3,h4,h5,h6,.titlename {color:greenyellow}
+/*以下為a標籤狀態效果*/
+a {color:dimgray;}
+a:hover {color:darkgoldenrod;}
+a:active {color:mediumvioletred;}
+a:visited {color:lightcyan;}
